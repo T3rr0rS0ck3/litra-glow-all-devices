@@ -41,7 +41,7 @@ export const findAllDevice = (): Device[] | null => {
 /**
  * Turns your Logitech Litra Glow device on.
  *
- * @param {Device[]} devices The devices to set the temperature of
+ * @param {Device[]} devices The devices to turn on
  */
 export const turnOn = (devices: Device[]): void => {
   devices.forEach(device => {
