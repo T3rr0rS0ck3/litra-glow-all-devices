@@ -131,7 +131,7 @@ const MAXIMUM_BRIGHTNESS_IN_LUMEN = 250;
  */
 export const setBrightnessInLumen = (devices: Device[], brightnessInLumen: number): void => {
   if (!Number.isInteger(brightnessInLumen)) {
-    throw 'Provided brightness must be an valid integer';
+    throw 'Provided brightness must be an integer';
   }
 
   if (
