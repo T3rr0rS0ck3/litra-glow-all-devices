@@ -52,7 +52,7 @@ export const turnOn = (devices: Device[]): void => {
 /**
  * Turns your Logitech Litra Glow device off.
  *
- * @param {Device[]} devices The devices to set the temperature of
+ * @param {Device[]} devices The devices to turn off
  */
 export const turnOff = (devices: Device[]): void => {
   devices.forEach(device => {
