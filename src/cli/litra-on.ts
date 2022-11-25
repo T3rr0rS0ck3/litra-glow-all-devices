@@ -9,7 +9,7 @@ try {
   if (devices) {
     turnOn(devices);
   } else {
-    throw 'Devices not found';
+    throw 'No Device';
   }
 
   process.exit(0);
