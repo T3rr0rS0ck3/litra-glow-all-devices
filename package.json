@@ -1,10 +1,10 @@
 {
-  "name": "litra-glow",
+  "name": "litra-glow-mutiple-device",
   "version": "0.0.0-development",
   "description": "A driver for controlling your Logitech Litra Glow light from a CLI or your JavaScript code",
   "main": "./dist/commonjs/driver.js",
   "module": "./dist/esm/driver.js",
-  "homepage": "https://github.com/timrogers/litra-glow",
+  "homepage": "https://github.com/T3rr0rS0ck3/litra-glow-multi-device.git",
   "files": [
     "dist"
   ],
@@ -16,7 +16,7 @@
     "lint-and-fix": "eslint . --ext .ts --fix",
     "semantic-release": "semantic-release"
   },
-  "author": "Tim Rogers <me@timrogers.co.uk>",
+  "author": "Robin",
   "license": "MIT",
   "dependencies": {
     "node-hid": "^2.1.1"
