@@ -16,7 +16,7 @@
     "lint-and-fix": "eslint . --ext .ts --fix",
     "semantic-release": "semantic-release"
   },
-  "author": "Robin",
+  "author": "Robin ",
   "license": "MIT",
   "dependencies": {
     "node-hid": "^2.1.1"
