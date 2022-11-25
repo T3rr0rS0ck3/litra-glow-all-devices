@@ -41,7 +41,9 @@
     "url": "https://github.com/timrogers/litra-glow.git"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "bin": {
     "litra-on": "./dist/commonjs/cli/litra-on.js",

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { integerToBytes, padRight, percentageWithinRange } from '../src/utils';
 
 describe('integerToBytes', () => {
