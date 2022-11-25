@@ -21,7 +21,7 @@ export interface Device {
  * `setTemperatureInKelvin` - or `null` if a matching device cannot be
  * found connected to your computer.
  */
-export const findAllDevice = (): Device[] | null => {
+export const findAllDevices = (): Device[] | null => {
   const devices = HID.devices();
 
   const matchingDevices = devices.filter(

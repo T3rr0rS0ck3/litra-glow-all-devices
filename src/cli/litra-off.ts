@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /* eslint-disable prettier/prettier */
 
-import { findAllDevice, turnOff } from './../driver';
+import { findAllDevices, turnOff } from './../driver';
 
 try {
-  const devices = findAllDevice();
+  const devices = findAllDevices();
 
   if (devices) {
     turnOff(devices);
