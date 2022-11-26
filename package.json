@@ -1,5 +1,5 @@
 {
-  "name": "litra-glow-multi-device",
+  "name": "litra-glow-all-devices",
   "version": "0.0.0-development",
   "description": "A driver for controlling your Logitech Litra Glow light from a CLI or your JavaScript code",
   "main": "./dist/commonjs/driver.js",
