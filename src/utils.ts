@@ -7,7 +7,7 @@
  * @param {any} paddingElement The element to pad the array with
  * @returns {any[]} The array padded to the required length
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 export const padRight = (array: any[], length: number, paddingElement: any): any[] => {
   if (array.length >= length) {
     return array;
@@ -49,11 +49,7 @@ export const integerToBytes = (integer: number): [number, number] => {
  * @param {number} endRange The number at the end of the range
  * @returns {number} The value at the given percentage
  */
-export const percentageWithinRange = (
-  percentage: number,
-  startRange: number,
-  endRange: number,
-): number => {
+export const percentageWithinRange = (percentage: number, startRange: number, endRange: number): number => {
   return Math.round(
     Math.ceil(((percentage - 1) / (100 - 1)) * (endRange - startRange) + startRange),
   );

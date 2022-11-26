@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable prettier/prettier */
 
 import { findAllDevices, turnOn } from './../driver';
 

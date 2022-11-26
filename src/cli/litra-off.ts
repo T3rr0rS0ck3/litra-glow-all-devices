@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-/* eslint-disable prettier/prettier */
 
 import { findAllDevices, turnOff } from './../driver';
 
@@ -8,12 +7,14 @@ try {
 
   if (devices) {
     turnOff(devices);
-  } else {
+  }
+  else {
     throw 'Device not found';
   }
 
   process.exit(0);
-} catch (e) {
+}
+catch (e) {
   console.log(e);
   process.exit(1);
 }
