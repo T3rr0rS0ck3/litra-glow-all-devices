@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-import { findDevice, turnOn } from './../driver';
+/* eslint-disable prettier/prettier */
+import { findAllDevices, turnOn } from './../driver';
 try {
-    const device = findDevice();
-    if (device) {
-        turnOn(device);
+    const devices = findAllDevices();
+    if (devices) {
+        turnOn(devices);
     }
     else {
-        throw 'Device not found';
+        throw 'No Device';
     }
     process.exit(0);
 }

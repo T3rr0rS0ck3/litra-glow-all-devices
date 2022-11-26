@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Pads the provided array to a specified length, adding the required
  * number of occurences of the padding element to the end of the array.
@@ -7,7 +8,6 @@
  * @param {any} paddingElement The element to pad the array with
  * @returns {any[]} The array padded to the required length
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const padRight = (array, length, paddingElement) => {
     if (array.length >= length) {
         return array;
