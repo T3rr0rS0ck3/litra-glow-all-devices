@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 /**
  * Conforms to the interface of `node-hid`'s `HID.HID`. Useful for mocking.
  */

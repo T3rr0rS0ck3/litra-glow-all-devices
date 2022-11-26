@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { integerToBytes, padRight } from "./utils";
 
 export class DeviceConstants {

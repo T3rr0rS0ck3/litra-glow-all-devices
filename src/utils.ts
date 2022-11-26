@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 /**
  * Pads the provided array to a specified length, adding the required
  * number of occurences of the padding element to the end of the array.

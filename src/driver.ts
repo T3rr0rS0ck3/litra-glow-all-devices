@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import HID from 'node-hid';
 import { DeviceConstants } from './DeviceConstants';
 import { IDevice } from './models/IDevice';
@@ -87,7 +88,7 @@ export const setTemperaturePercentage = (
     throw 'Percentage must be between 0 and 100';
   }
 
-  let temperatureToSet: number = 0;
+  let temperatureToSet = 0;
   if (temperaturePercentage === 0) {
     temperatureToSet = DeviceConstants.MINIMUM_TEMPERATURE_IN_KELVIN
   }
@@ -131,7 +132,7 @@ export const setBrightnessPercentage = (devices: IDevice[], brightnessPercentage
     throw 'Percentage must be between 0 and 100';
   }
 
-  let brightnessToSet: number = 0;
+  let brightnessToSet = 0;
   if (brightnessPercentage === 0) {
     brightnessToSet = DeviceConstants.MINIMUM_BRIGHTNESS_IN_LUMEN
   }
