@@ -17,9 +17,13 @@ This library is tested on Windows. It's powered by [`node-hid`](https://github.c
 
 Make sure you have Node.js available on your machine, and then install the package with `npm install -g litra-glow-all-devices`.
 
-With the package installed, use the `litra-on` and `litra-off` commands to turn your light on and off.\
+With the package installed, use the `litra-on` and `litra-off` commands to turn your light on and off.
+
 The `litra-temp <tempAsPercent>` for setting the temperature e.g. `litra-temp 75`.\
-The `litra-bright <tempAsPercent>` for setting the temperature e.g. `litra-bright 75`.
+ Alternative you can set the temperature with `litra-temp-kelvin <kelvin>` for setting the temparture as kelvin e.g. `litra-temp-kelvin 2700`
+
+The `litra-bright <tempAsPercent>` for setting the temperature e.g. `litra-bright 75`.\
+Alternative you can set the brightness with `litra-bright-lumen <lumen>` for setting the brightness as lumen e.g. `litra-bright-lumen 250`\
 
 ## Using as a JavaScript library
 
