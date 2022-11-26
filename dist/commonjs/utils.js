@@ -1,4 +1,5 @@
 "use strict";
+/* eslint-disable prettier/prettier */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.percentageWithinRange = exports.integerToBytes = exports.padRight = void 0;
 /**
@@ -10,7 +11,6 @@ exports.percentageWithinRange = exports.integerToBytes = exports.padRight = void
  * @param {any} paddingElement The element to pad the array with
  * @returns {any[]} The array padded to the required length
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const padRight = (array, length, paddingElement) => {
     if (array.length >= length) {
         return array;
