@@ -80,10 +80,7 @@ export const setTemperatureInKelvin = (devices: IDevice[], temperatureInKelvin: 
  * @param {IDevice[]} devices The devices to set the temperature of
  * @param {number} temperaturePercentage The percentage to set the temperature to
  */
-export const setTemperaturePercentage = (
-  devices: IDevice[],
-  temperaturePercentage: number,
-): void => {
+export const setTemperaturePercentage = (devices: IDevice[], temperaturePercentage: number): void => {
   if (temperaturePercentage < 0 || temperaturePercentage > 100) {
     throw 'Percentage must be between 0 and 100';
   }

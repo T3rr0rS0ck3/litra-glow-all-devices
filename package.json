@@ -49,6 +49,8 @@
     "litra-on": "./dist/commonjs/cli/litra-on.js",
     "litra-off": "./dist/commonjs/cli/litra-off.js",
     "litra-temp": "./dist/commonjs/cli/litra-temp.js",
-    "litra-bright": "./dist/commonjs/cli/litra-bright.js"
+    "litra-bright": "./dist/commonjs/cli/litra-bright.js",
+    "litra-temp-kelvin": "./dist/commonjs/cli/litra-temp-kelvin.js",
+    "litra-bright-lumen": "./dist/commonjs/cli/litra-bright-lumen.js"
   }
 }
